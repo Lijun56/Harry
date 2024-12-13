@@ -25,24 +25,3 @@
 .bubble:hover {
   transform: scale(1.1);
 }
-/* Add to your existing CSS */
-.container {
-  width: 100%;
-  height: 70vh;
-  background-color: #f5f6fa;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.bubbleUI {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  position: relative;
-}
-
-.child {
-  width: 100%;
-  height: 100%;
-}
