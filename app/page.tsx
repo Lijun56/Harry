@@ -11,7 +11,7 @@ export default function HomePage() {
       <div className="absolute bottom-1/4 left-1/3 w-32 h-32 bg-blue-200 rounded-full opacity-50 animate-ping"></div>
       <div className="relative container mx-auto px-6 py-16 text-center">
         <h1 className="text-5xl font-extrabold text-blue-800">
-          Welcome to Habitude
+          Welcome to Harry
         </h1>
         <p className="mt-4 text-lg text-gray-600">
           Your journey to building better habits starts here.
