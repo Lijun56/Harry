@@ -1,0 +1,420 @@
+
+{
+  "categories": [
+    {
+      "id": "cat_wellbeing",
+      "name": "Well-being",
+      "logSummary": "Track your physical and mental health habits"
+    },
+    {
+      "id": "cat_growth",
+      "name": "Personal Growth",
+      "logSummary": "Monitor your learning and development progress"
+    },
+    {
+      "id": "cat_productivity",
+      "name": "Productivity",
+      "logSummary": "Measure your work efficiency and task completion"
+    },
+    {
+      "id": "cat_relationships",
+      "name": "Relationships",
+      "logSummary": "Build stronger connections with others"
+    }
+  ],
+  "tips": [
+    {
+      "id": "tip_1",
+      "categoryName": "Well-being",
+      "description": "Start with 5 minutes of meditation and gradually increase duration",
+      "equation": "Consistency > Duration"
+    },
+    {
+      "id": "tip_2",
+      "categoryName": "Well-being",
+      "description": "Track your water intake throughout the day",
+      "equation": "8 glasses = 2 liters"
+    },
+    {
+      "id": "tip_3",
+      "categoryName": "Personal Growth",
+      "description": "Break down learning goals into 25-minute focused sessions",
+      "equation": "Learning = Focus × Time"
+    },
+    {
+      "id": "tip_4",
+      "categoryName": "Productivity",
+      "description": "Use the 2-minute rule: if it takes less than 2 minutes, do it now",
+      "equation": "Small Tasks + Immediate Action = Progress"
+    },
+    {
+      "id": "tip_5",
+      "categoryName": "Relationships",
+      "description": "Practice active listening by asking follow-up questions",
+      "equation": "Understanding = Listening > Speaking"
+    },
+    {
+      "id": "tip_6",
+      "categoryName": "Well-being",
+      "description": "Wind down at night by avoiding screens 30 minutes before bed",
+      "equation": "Better Sleep = Less Screen Time"
+    },
+    {
+      "id": "tip_7",
+      "categoryName": "Personal Growth",
+      "description": "Write down three things you learned today",
+      "equation": "Reflection = Growth"
+    },
+    {
+      "id": "tip_8",
+      "categoryName": "Productivity",
+      "description": "Batch similar tasks together to minimize context switching",
+      "equation": "Efficiency = Focus - Interruptions"
+    },
+    {
+      "id": "tip_9",
+      "categoryName": "Relationships",
+      "description": "Set aside 10 minutes daily to talk about your partner’s day",
+      "equation": "Connection = Attention × Time"
+    },
+    {
+      "id": "tip_10",
+      "categoryName": "Well-being",
+      "description": "Take a 5-minute walk after every hour of sitting",
+      "equation": "Activity = Breaks × Movement"
+    },
+    {
+      "id": "tip_11",
+      "categoryName": "Well-being",
+      "description": "Practice deep breathing exercises for 3 minutes when stressed",
+      "equation": "Calmness = Breath × Awareness"
+    },
+    {
+      "id": "tip_12",
+      "categoryName": "Personal Growth",
+      "description": "Set a monthly challenge to step outside your comfort zone",
+      "equation": "Growth = Discomfort + Action"
+    },
+    {
+      "id": "tip_13",
+      "categoryName": "Personal Growth",
+      "description": "Spend 10 minutes daily on a creative hobby",
+      "equation": "Creativity = Practice × Passion"
+    },
+    {
+      "id": "tip_14",
+      "categoryName": "Productivity",
+      "description": "Plan your day using the Eisenhower Matrix",
+      "equation": "Effectiveness = Priority × Urgency"
+    },
+    {
+      "id": "tip_15",
+      "categoryName": "Productivity",
+      "description": "Set clear boundaries for work and rest times",
+      "equation": "Balance = Time Management"
+    },
+    {
+      "id": "tip_16",
+      "categoryName": "Relationships",
+      "description": "Send an appreciation text to a loved one once a week",
+      "equation": "Gratitude = Connection × Effort"
+    },
+    {
+      "id": "tip_17",
+      "categoryName": "Relationships",
+      "description": "Schedule a weekly outing with friends or family",
+      "equation": "Bonding = Time × Shared Activities"
+    },
+      {
+        "id": "tip_10",
+        "categoryName": "Well-being",
+        "description": "Take a 5-minute walk after every hour of sitting",
+        "equation": "Activity = Breaks × Movement"
+      },
+      {
+        "id": "tip_11",
+        "categoryName": "Well-being",
+        "description": "Practice deep breathing exercises for 3 minutes when stressed",
+        "equation": "Calmness = Breath × Awareness"
+      },
+      {
+        "id": "tip_12",
+        "categoryName": "Personal Growth",
+        "description": "Set a monthly challenge to step outside your comfort zone",
+        "equation": "Growth = Discomfort + Action"
+      },
+      {
+        "id": "tip_13",
+        "categoryName": "Personal Growth",
+        "description": "Spend 10 minutes daily on a creative hobby",
+        "equation": "Creativity = Practice × Passion"
+      },
+      {
+        "id": "tip_14",
+        "categoryName": "Productivity",
+        "description": "Plan your day using the Eisenhower Matrix",
+        "equation": "Effectiveness = Priority × Urgency"
+      },
+      {
+        "id": "tip_15",
+        "categoryName": "Productivity",
+        "description": "Set clear boundaries for work and rest times",
+        "equation": "Balance = Time Management"
+      },
+      {
+        "id": "tip_16",
+        "categoryName": "Relationships",
+        "description": "Send an appreciation text to a loved one once a week",
+        "equation": "Gratitude = Connection × Effort"
+      },
+      {
+        "id": "tip_17",
+        "categoryName": "Relationships",
+        "description": "Schedule a weekly outing with friends or family",
+        "equation": "Bonding = Time × Shared Activities"
+      },
+      {
+        "id": "tip_18",
+        "categoryName": "Well-being",
+        "description": "Start your day with a glass of warm water and lemon",
+        "equation": "Hydration + Nutrition = Energy"
+    },
+    {
+        "id": "tip_19",
+        "categoryName": "Well-being",
+        "description": "Use a standing desk for at least 1 hour a day",
+        "equation": "Health = Posture × Movement"
+    },
+    {
+        "id": "tip_20",
+        "categoryName": "Personal Growth",
+        "description": "Ask for feedback from a mentor once a month",
+        "equation": "Growth = Input + Iteration"
+    },
+    {
+        "id": "tip_21",
+        "categoryName": "Personal Growth",
+        "description": "Explore a new culture by trying their cuisine",
+        "equation": "Diversity = Experience × Curiosity"
+    },
+    {
+        "id": "tip_22",
+        "categoryName": "Productivity",
+        "description": "Start your workday by tackling the hardest task first",
+        "equation": "Progress = Energy - Procrastination"
+    },
+    {
+        "id": "tip_23",
+        "categoryName": "Productivity",
+        "description": "Use time blocking to organize your day",
+        "equation": "Efficiency = Planning × Focus"
+    },
+    {
+        "id": "tip_24",
+        "categoryName": "Relationships",
+        "description": "Write down three things you appreciate about someone and share it",
+        "equation": "Gratitude = Expression × Connection"
+    },
+    {
+        "id": "tip_25",
+        "categoryName": "Relationships",
+        "description": "Spend a day volunteering with a friend or family member",
+        "equation": "Connection + Purpose = Stronger Bonds"
+    },
+    {
+        "id": "tip_26",
+        "categoryName": "Well-being",
+        "description": "Limit caffeine intake after 2 PM to improve sleep",
+        "equation": "Better Sleep = Less Stimulation"
+    },
+    {
+        "id": "tip_27",
+        "categoryName": "Personal Growth",
+        "description": "Attend a webinar or workshop on a topic of interest",
+        "equation": "Learning = Engagement × Resources"
+    }
+  ],
+  "suggestedHabits": [
+    {
+      "id": "sug_1",
+      "name": "Morning Meditation",
+      "categoryName": "Well-being",
+      "frequency": "DAILY"
+    },
+    {
+      "id": "sug_2",
+      "name": "Read for 30 minutes",
+      "categoryName": "Personal Growth",
+      "frequency": "DAILY"
+    },
+    {
+      "id": "sug_3",
+      "name": "Weekly Goal Review",
+      "categoryName": "Productivity",
+      "frequency": "WEEKLY"
+    },
+    {
+      "id": "sug_4",
+      "name": "Family dinner without phones",
+      "categoryName": "Relationships",
+      "frequency": "DAILY"
+    },
+    {
+      "id": "sug_5",
+      "name": "Exercise for 30 minutes",
+      "categoryName": "Well-being",
+      "frequency": "DAILY"
+    },
+    {
+      "id": "sug_6",
+      "name": "Learn a new skill",
+      "categoryName": "Personal Growth",
+      "frequency": "WEEKLY"
+    },
+    {
+      "id": "sug_7",
+      "name": "Inbox Zero",
+      "categoryName": "Productivity",
+      "frequency": "DAILY"
+    },
+    {
+      "id": "sug_8",
+      "name": "Call a friend or family member",
+      "categoryName": "Relationships",
+      "frequency": "WEEKLY"
+    },
+    {
+      "id": "sug_9",
+      "name": "Stretch for 10 minutes",
+      "categoryName": "Well-being",
+      "frequency": "DAILY"
+    },
+    {
+      "id": "sug_10",
+      "name": "Write in a journal",
+      "categoryName": "Personal Growth",
+      "frequency": "DAILY"
+    },
+    {
+      "id": "sug_11",
+      "name": "Plan the next day’s tasks",
+      "categoryName": "Productivity",
+      "frequency": "DAILY"
+    },
+    {
+      "id": "sug_12",
+      "name": "Have a meaningful conversation with a colleague",
+      "categoryName": "Relationships",
+      "frequency": "WEEKLY"
+    },
+    {
+      "id": "sug_13",
+      "name": "Daily Gratitude Journal",
+      "categoryName": "Well-being",
+      "frequency": "DAILY"
+    },
+    {
+      "id": "sug_14",
+      "name": "Drink a green smoothie",
+      "categoryName": "Well-being",
+      "frequency": "WEEKLY"
+    },
+    {
+      "id": "sug_15",
+      "name": "Read one book chapter",
+      "categoryName": "Personal Growth",
+      "frequency": "DAILY"
+    },
+    {
+      "id": "sug_16",
+      "name": "Write a blog post or reflection",
+      "categoryName": "Personal Growth",
+      "frequency": "WEEKLY"
+    },
+    {
+      "id": "sug_17",
+      "name": "Organize work desk",
+      "categoryName": "Productivity",
+      "frequency": "DAILY"
+    },
+    {
+      "id": "sug_18",
+      "name": "Review team goals",
+      "categoryName": "Productivity",
+      "frequency": "WEEKLY"
+    },
+    {
+      "id": "sug_19",
+      "name": "Have a game night with friends",
+      "categoryName": "Relationships",
+      "frequency": "MONTHLY"
+    },
+    {
+      "id": "sug_20",
+      "name": "Volunteer for a cause",
+      "categoryName": "Relationships",
+      "frequency": "MONTHLY"
+    },
+    {
+      "id": "sug_21",
+      "name": "Stretch before bed",
+      "categoryName": "Well-being",
+      "frequency": "DAILY"
+    },
+    {
+      "id": "sug_22",
+      "name": "Practice mindful eating",
+      "categoryName": "Well-being",
+      "frequency": "DAILY"
+    },
+    {
+      "id": "sug_23",
+      "name": "Watch an inspiring TED talk",
+      "categoryName": "Personal Growth",
+      "frequency": "WEEKLY"
+    },
+    {
+      "id": "sug_24",
+      "name": "Start a 30-day challenge",
+      "categoryName": "Personal Growth",
+      "frequency": "MONTHLY"
+    },
+    {
+      "id": "sug_25",
+      "name": "Declutter one area",
+      "categoryName": "Productivity",
+      "frequency": "WEEKLY"
+    },
+    {
+      "id": "sug_26",
+      "name": "Focus on one deep work session",
+      "categoryName": "Productivity",
+      "frequency": "DAILY"
+    },
+    {
+      "id": "sug_27",
+      "name": "Cook a meal together",
+      "categoryName": "Relationships",
+      "frequency": "WEEKLY"
+    },
+    {
+      "id": "sug_28",
+      "name": "Write a thank-you letter",
+      "categoryName": "Relationships",
+      "frequency": "MONTHLY"
+    },
+    {
+      "id": "sug_29",
+      "name": "Take a mid-day nap",
+      "categoryName": "Well-being",
+      "frequency": "WEEKLY"
+    },
+    {
+      "id": "sug_30",
+      "name": "Listen to an audiobook",
+      "categoryName": "Personal Growth",
+      "frequency": "WEEKLY"
+    }
+  ]
+  
+}

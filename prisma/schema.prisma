@@ -1,0 +1,64 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Habit {
+  id           String        @id @default(uuid())
+  clerkUserId  String
+  name         String
+  categoryName String
+  category     HabitCategory @relation(fields: [categoryName], references: [name])
+  frequency    Frequency
+  logs         Log[]
+}
+
+model Log {
+  id        String   @id @default(uuid())
+  habitId   String
+  habit     Habit    @relation(fields: [habitId], references: [id])
+  logDate   DateTime
+  completed Boolean
+}
+
+model HabitCategory {
+  id              String           @id @default(uuid())
+  name            String           @unique
+  logSummary      String? // Consider JSON type if PostgreSQL supports it
+  habits          Habit[]
+  tips            Tip[]
+  suggestedHabits SuggestedHabit[]
+}
+
+model Tip {
+  id           String        @id @default(uuid())
+  categoryName String
+  category     HabitCategory @relation(fields: [categoryName], references: [name])
+  description  String
+  equation     String?
+}
+
+model SuggestedHabit {
+  id           String        @id @default(uuid())
+  name         String
+  categoryName String
+  category     HabitCategory @relation(fields: [categoryName], references: [name])
+  frequency    Frequency
+}
+
+enum Frequency {
+  DAILY
+  WEEKLY
+  MONTHLY
+}
