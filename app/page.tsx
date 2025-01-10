@@ -45,8 +45,8 @@ export default function HomePage() {
           </a>
           <div className="text-center max-w-2xl">
             <div className="text-sm text-gray-500 mb-2">
-              © {new Date().getFullYear()} Harry. Created by Lijun Zhu. All
-              rights reserved.
+              © {new Date().getFullYear()} Harry. Created by Lijun(Stephen) Zhu.
+              All rights reserved.
             </div>
             <div className="text-xs text-gray-400 space-y-1">
               <p>
